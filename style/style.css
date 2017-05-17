@@ -1,0 +1,41 @@
+.title {
+	text-align: center;
+	margin: 40px auto;
+}
+
+.center {
+	margin: 20px auto;
+	width: 80%;
+	text-align: justify;
+
+}
+
+.started {
+	margin: 20px 0;
+	color: blue;
+}
+
+.selected {
+	margin: 30px 0 30px 0;
+}
+
+.book-list {
+	margin: 50px 0;
+}
+
+h5,
+.images {
+	text-align: center;
+}
+
+h6 {
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+
+.img {
+	margin: 40px;
+	width: 200px;
+	height: auto;
+}
