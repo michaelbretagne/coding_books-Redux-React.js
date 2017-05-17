@@ -7,8 +7,14 @@ export default class App extends Component {
   render() {
     return (
       <div>
-      	<BookList />
-      	<BookDetail />
+      	<div className="list">
+      		<BookList />
+      	</div>
+      	<div className="col-sm-8">
+			<div className="center">
+  				<BookDetail />
+  			</div>
+      	</div>
       </div>
     );
   }
