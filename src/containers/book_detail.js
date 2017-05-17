@@ -8,15 +8,11 @@ class BookDetail extends Component {
 		}
 
 		return (
-			<div className="col-sm-8">
-				<div className="center">
-					<h5 className="selected">Book Selected</h5>
-					<div><h6><a href={this.props.book.link}>{this.props.book.title}</a></h6></div>
-					<div>{this.props.book.snippet}</div>
-					<div className="images">
-						<img className="img" src={this.props.book.image} />
-					</div>
-				</div>
+			<h5 className="selected">Book Selected</h5>
+			<div><h6><a href={this.props.book.link}>{this.props.book.title}</a></h6></div>
+			<div>{this.props.book.snippet}</div>
+			<div className="images">
+				<img className="img" src={this.props.book.image} />
 			</div>
 		);
 	}
